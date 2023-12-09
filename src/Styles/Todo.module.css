@@ -1,0 +1,29 @@
+.main{
+    padding: 20px;
+}
+.main > *{
+    margin: 20px 0px;
+}
+
+.inputgroup{
+    margin: auto;
+    width: 50%;
+}
+
+.table{
+    margin: auto;
+    width: 80%;
+    background-color: rgb(218, 236, 248);
+}
+
+.thead{
+    background-color: rgb(153, 196, 225);
+}
+
+.completed{
+    color: rgb(29, 214, 54);
+}
+
+.notcompleted{
+    color: rgb(236, 71, 34);
+}

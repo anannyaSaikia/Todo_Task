@@ -16,6 +16,10 @@
     background-color: rgb(218, 236, 248);
 }
 
+.spinner{
+    margin-left: 350px;
+}
+
 .thead{
     background-color: rgb(153, 196, 225);
 }

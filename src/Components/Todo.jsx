@@ -149,7 +149,7 @@ const Todo = () => {
                             flag ? allTasks.map((ele, i) =>
                                 <Tr key={i}>
                                     <Td>{i + 1}</Td>
-                                    <Td>{ele.title}</Td>
+                                    <Td className={style.title}>{ele.title}</Td>
                                     <Td className={ele.completed ? `${style.completed}` : `${style.notcompleted}`}
                                         onClick={() => handleStatusToggle(ele.id)}>
                                         {ele.completed ? "Completed" : "Not Complete"}
@@ -160,7 +160,7 @@ const Todo = () => {
                                     }} /></Td>
                                     <Td><DeleteIcon onClick={() => handleDelete(ele.id, ele.title)} /></Td>
                                 </Tr>
-                            ) : <Spinner color='blue.500' size="xl" />
+                            ) : <Spinner className={style.spinner} color='blue.500' size="xl"/>
                         }
                     </Tbody>
                 </Table>
